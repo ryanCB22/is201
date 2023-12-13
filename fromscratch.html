@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ryan's Hobby</title>
+    <link rel="stylesheet" href="css/fromscratch.css">
+</head>
+
+
+<header>
+    <div class = "commonheader">Ryan's Favorite Band</div>
+
+    <br>
+
+    <div class = "commonheader2">U2</div>
+
+    <br>
+
+    <div class = "commonlistheader">Favorite Album's/Songs</div>
+
+    <br>
+
+    <ol>
+        <li class = "commonlist"> Joshua Tree (1987)</li>
+            <ul>
+                <li class = "commonlist"> With or Without You</li>
+                <li class = "commonlist"> I Still Haven't Found What I'm Looking For</li>
+                <li class = "commonlist"> Running to Stand Still</li>
+                <li class = "commonlist"> One Tree Hill</li>
+            </ul>
+
+        <li class = "commonlist"> Rattle and Hum (1988)</li>
+            <ul>
+                <li class = "commonlist"> Heartland</li>
+                <li class = "commonlist"> Desire</li>
+                <li class = "commonlist"> Angel of Harlem</li>
+                <li class = "commonlist"> God, Pt. II</li>
+            </ul>
+
+        
+        <li class = "commonlist"> Achtung Baby (1991)</li>
+            <ul>
+                <li class = "commonlist"> One</li>
+                <li class = "commonlist"> Mysterious Ways</li>
+                <li class = "commonlist"> Until the End of the World</li>
+                <li class = "commonlist"> The Fly</li>
+            </ul>
+        
+        <li class = "commonlist"> Zooropa (1993)</li>
+            <ul>
+                <li class = "commonlist"> Zooropa</li>
+                <li class = "commonlist"> Lemon</li>
+                <li class = "commonlist"> Stay (Faraway, So CLose)</li>
+                <li class = "commonlist"> Some Days Are Better Than Others</li>
+            
+            </ul>
+        
+         
+    
+    
+
+    </ol>
+   
+    <br>
+
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkx-hHyV3TgSRdIsnbdzQCTlqZXtle3136gg&usqp=CAU img" alt="25%">
+
+    <br>
+    <!-- div for tableau graph -->
+    <div id="tableauViz"></div>
+
+    <br>
+    <!-- YouTube  -->
+    <div class= "videoboody" Body<left><iframe width="560" height="315" src="https://www.youtube.com/embed/ulUZkZr6ngk?si=MRv95Gz8hWac0eN5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></left>/div>
+</header>
+<body>
+
+   <!-- Script to encorporate tableau graph -->
+   <script src="https://public.tableau.com/javascripts/api/tableau-2.min.js"></script>
+
+   <!-- Java script for tableau graph -->
+   <script>
+       
+       function initViz() {
+         var containerDiv = document.getElementById("tableauViz");
+       // URL for java script to run tableau graph
+         var url = "https://public.tableau.com/views/U2ATourofYesterdayandToday/U2Tour?:language=en-US&:display_count=n&:origin=viz_share_link";
+         var options = {
+           hideTabs: true,
+           hideToolbar: true
+         };
+         var viz = new tableau.Viz(containerDiv, url, options);
+       }
+       document.addEventListener("DOMContentLoaded", initViz);
+     </script>
+
+
+
+
+    <br>
+
+    <a href="index.html">Back to Resume</a>
+    
+    <br>
+
+    <a href="#">Back to Top</a>
+    
+    
+</body>
+</html>

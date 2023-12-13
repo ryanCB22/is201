@@ -1,0 +1,54 @@
+.commonheader{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.commonheader2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+    text-align: center;
+    color: whitesmoke;
+}
+
+body{
+    background-image: url("https://2.bp.blogspot.com/_eFoXkLTOkDo/TJAfijpheZI/AAAAAAAACEk/8fCdL7Vzm68/s1600/SHADOW+WALLPAPER+(14-09-10).jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+/* .videobody {
+    position: fixed;
+
+} */
+
+
+.commonlistheader{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    color: white;
+    
+}
+
+.commonlist{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    color: whitesmoke;
+   
+}
+
+a{
+    color: whitesmoke;
+}
+
+img{
+    
+    display: inline;
+    float: left;
+    word-wrap: normal;
+
+}
+
+
